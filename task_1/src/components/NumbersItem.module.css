@@ -1,0 +1,28 @@
+.item {
+  text-align: center;
+}
+
+.count {
+  font-family: var(--font-heading);
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.unit {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+.desc {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-gray);
+}

@@ -1,0 +1,31 @@
+.numbers {
+  margin-top: -100px;
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  padding: 55px 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .numbers {
+    margin-top: -50px;
+  }
+  .card {
+    grid-template-columns: 1fr;
+    padding: 30px 16px;
+  }
+}
